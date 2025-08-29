@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f08e36c87f3dd97b4687.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "turtlebot4_base",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot4_base_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot4_base_lib-acdd8521dfbd5fd989fa.json",
+					"name" : "turtlebot4_base_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot4_base_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot4_base_node-e6a8eb25925a0da32826.json",
+					"name" : "turtlebot4_base_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlebot4_base_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlebot4_base_uninstall-cfa90e8f9bf898b965a4.json",
+					"name" : "turtlebot4_base_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5442c6350c83cc14da9c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jetson/tb420250806/build/turtlebot4_base",
+		"source" : "/home/jetson/tb420250806/src/turtlebot4_robot/turtlebot4_base"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

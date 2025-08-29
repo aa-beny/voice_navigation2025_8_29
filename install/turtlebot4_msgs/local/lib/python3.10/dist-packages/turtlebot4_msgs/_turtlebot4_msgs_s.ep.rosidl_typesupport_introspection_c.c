@@ -1,0 +1,1 @@
+/home/jetson/tb420250806/build/turtlebot4_msgs/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_introspection_c.c

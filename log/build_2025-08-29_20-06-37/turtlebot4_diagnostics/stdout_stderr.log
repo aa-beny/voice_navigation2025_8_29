@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing turtlebot4_diagnostics.egg-info/PKG-INFO
+writing dependency_links to turtlebot4_diagnostics.egg-info/dependency_links.txt
+writing entry points to turtlebot4_diagnostics.egg-info/entry_points.txt
+writing requirements to turtlebot4_diagnostics.egg-info/requires.txt
+writing top-level names to turtlebot4_diagnostics.egg-info/top_level.txt
+reading manifest file 'turtlebot4_diagnostics.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot4_diagnostics.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/tb420250806/install/turtlebot4_diagnostics/lib/python3.10/site-packages/turtlebot4-diagnostics.egg-link (link to .)
+Installing diagnostics_updater script to /home/jetson/tb420250806/install/turtlebot4_diagnostics/lib/turtlebot4_diagnostics
+
+Installed /home/jetson/tb420250806/build/turtlebot4_diagnostics
+running symlink_data

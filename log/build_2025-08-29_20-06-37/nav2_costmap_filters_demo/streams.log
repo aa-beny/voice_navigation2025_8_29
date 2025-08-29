@@ -1,0 +1,28 @@
+[0.575s] Invoking command in '/home/jetson/tb420250806/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --build /home/jetson/tb420250806/build/nav2_costmap_filters_demo -- -j8 -l8
+[1.121s] Invoked command in '/home/jetson/tb420250806/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --build /home/jetson/tb420250806/build/nav2_costmap_filters_demo -- -j8 -l8
+[1.123s] Invoking command in '/home/jetson/tb420250806/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --install /home/jetson/tb420250806/build/nav2_costmap_filters_demo
+[1.136s] -- Install configuration: ""
+[1.138s] -- Execute custom install script
+[1.139s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/launch/costmap_filter_info.launch.py
+[1.141s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.pgm
+[1.141s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.yaml
+[1.142s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.pgm
+[1.145s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.yaml
+[1.146s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/keepout_params.yaml
+[1.152s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/speed_params.yaml
+[1.152s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_filters_demo
+[1.153s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_filters_demo
+[1.153s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/ament_prefix_path.sh
+[1.153s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/ament_prefix_path.dsv
+[1.153s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/path.sh
+[1.154s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/path.dsv
+[1.154s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.bash
+[1.154s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.sh
+[1.154s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.zsh
+[1.155s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.dsv
+[1.155s] -- Symlinking: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.dsv
+[1.183s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/ament_index/resource_index/packages/nav2_costmap_filters_demo
+[1.184s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/cmake/nav2_costmap_filters_demoConfig.cmake
+[1.184s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/cmake/nav2_costmap_filters_demoConfig-version.cmake
+[1.184s] -- Up-to-date symlink: /home/jetson/tb420250806/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.xml
+[1.262s] Invoked command in '/home/jetson/tb420250806/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --install /home/jetson/tb420250806/build/nav2_costmap_filters_demo

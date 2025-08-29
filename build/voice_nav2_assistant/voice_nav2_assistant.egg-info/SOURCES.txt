@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+resource/voice_nav2_assistant
+voice_nav2_assistant/__init__.py
+voice_nav2_assistant/voice_nav_node.py
+voice_nav2_assistant.egg-info/PKG-INFO
+voice_nav2_assistant.egg-info/SOURCES.txt
+voice_nav2_assistant.egg-info/dependency_links.txt
+voice_nav2_assistant.egg-info/entry_points.txt
+voice_nav2_assistant.egg-info/requires.txt
+voice_nav2_assistant.egg-info/top_level.txt
+voice_nav2_assistant.egg-info/zip-safe
+voice_nav2_assistant/config/places.yaml
+voice_nav2_assistant/launch/from_file.launch.py

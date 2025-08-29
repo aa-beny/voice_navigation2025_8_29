@@ -1,0 +1,15 @@
+/home/jetson/tb420250806/install/turtlebot4_robot/share/ament_index/resource_index/package_run_dependencies/turtlebot4_robot
+/home/jetson/tb420250806/install/turtlebot4_robot/share/ament_index/resource_index/parent_prefix_path/turtlebot4_robot
+/home/jetson/tb420250806/install/turtlebot4_robot/share/turtlebot4_robot/environment/ament_prefix_path.sh
+/home/jetson/tb420250806/install/turtlebot4_robot/share/turtlebot4_robot/environment/ament_prefix_path.dsv
+/home/jetson/tb420250806/install/turtlebot4_robot/share/turtlebot4_robot/environment/path.sh
+/home/jetson/tb420250806/install/turtlebot4_robot/share/turtlebot4_robot/environment/path.dsv
+/home/jetson/tb420250806/install/turtlebot4_robot/share/turtlebot4_robot/local_setup.bash
+/home/jetson/tb420250806/install/turtlebot4_robot/share/turtlebot4_robot/local_setup.sh
+/home/jetson/tb420250806/install/turtlebot4_robot/share/turtlebot4_robot/local_setup.zsh
+/home/jetson/tb420250806/install/turtlebot4_robot/share/turtlebot4_robot/local_setup.dsv
+/home/jetson/tb420250806/install/turtlebot4_robot/share/turtlebot4_robot/package.dsv
+/home/jetson/tb420250806/install/turtlebot4_robot/share/ament_index/resource_index/packages/turtlebot4_robot
+/home/jetson/tb420250806/install/turtlebot4_robot/share/turtlebot4_robot/cmake/turtlebot4_robotConfig.cmake
+/home/jetson/tb420250806/install/turtlebot4_robot/share/turtlebot4_robot/cmake/turtlebot4_robotConfig-version.cmake
+/home/jetson/tb420250806/install/turtlebot4_robot/share/turtlebot4_robot/package.xml

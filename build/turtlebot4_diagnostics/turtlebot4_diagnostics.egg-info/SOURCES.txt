@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+config/diagnostics.yaml
+launch/diagnostics.launch.py
+resource/turtlebot4_diagnostics
+turtlebot4_diagnostics/__init__.py
+turtlebot4_diagnostics/diagnostics_updater.py
+turtlebot4_diagnostics.egg-info/PKG-INFO
+turtlebot4_diagnostics.egg-info/SOURCES.txt
+turtlebot4_diagnostics.egg-info/dependency_links.txt
+turtlebot4_diagnostics.egg-info/entry_points.txt
+turtlebot4_diagnostics.egg-info/requires.txt
+turtlebot4_diagnostics.egg-info/top_level.txt
+turtlebot4_diagnostics.egg-info/zip-safe

@@ -1,0 +1,128 @@
+time
+date -u
+----------------------------------------------------------------------------
+voice
+
+
+
+A) 沒麥克風 + 不用 GPT（離線規則）
+source ~/tb420250806/install/setup.bash
+export AUDIO_FILES="/home/jetson/voice_tests/*.wav"   # 或用 ~ 也行
+export USE_OPENAI=false                                # 不寫也預設 false
+ros2 launch voice_nav2_assistant from_file.launch.py
+
+B) 沒麥克風 + 用 GPT（語意理解）
+source ~/tb420250806/install/setup.bash
+export OPENAI_API_KEY=你的金鑰
+export AUDIO_FILES="/home/jetson/voice_tests/*.wav"
+export USE_OPENAI=true
+ros2 launch voice_nav2_assistant from_file.launch.py
+
+
+提醒：你的 from_file.launch.py 目前固定 audio_mode='file'，所以用 ros2 launch 是跑讀檔模式；
+要用麥克風，請用 ros2 run（下面有指令）。
+
+C) 有麥克風 + 不用/用 GPT（用 ros2 run 才吃得到鍵盤 Enter）
+# 不用 GPT
+PL=$(ros2 pkg prefix voice_nav2_assistant)/share/voice_nav2_assistant/config/places.yaml
+ros2 run voice_nav2_assistant voice_nav_node --ros-args \
+  -p places_file:=$PL -p audio_mode:=mic -p use_openai:=false
+
+# 用 GPT
+export OPENAI_API_KEY=你的金鑰
+ros2 run voice_nav2_assistant voice_nav_node --ros-args \
+  -p places_file:=$PL -p audio_mode:=mic -p use_openai:=true
+# 視窗顯示：🎤 麥克風模式：按 Enter 錄音 3 秒，q 離開
+
+
+（可選）調整錄音秒數 / 取樣率：
+
+export MIC_DURATION=3    # 秒
+export MIC_RATE=16000    # Hz
+
+
+
+----------------------------------------------------------------------------
+camera
+ros2 launch turtlebot4_bringup oakd.launch.py
+----------------------------------------------------------------------------
+http://192.168.186.2/beta-datetime
+----------------------------------------------------------------------------
+lidar:
+ros2 launch turtlebot4_bringup lite.launch.py 
+----------------------------------------------------------------------------
+tf
+ros2 run tf2_ros static_transform_publisher 0.00393584 0 0.07529272 4.71238898038 0 3.14159265359 base_link rplidar_link
+----------------------------------------------------------------------------
+rviz2:
+ros2 launch turtlebot4_viz view_robot.launch.py 
+----------------------------------------------------------------------------
+
+local:
+ros2 launch turtlebot4_navigation slam.launch.py params:=/home/recoomputer/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation/config/mapper_params_localization.yaml
+----------------------------------------------------------------------------
+調參數:
+ros2 run rqt_reconfigure rqt_reconfigure
+----------------------------------------------------------------------------
+AMCL:
+ros2 launch turtlebot4_navigation localization.launch.py map:=/home/recoomputer/benytb4_ws/map.yaml
+----------------------------------------------------------------------------
+
+costamp:
+ros2 run map_publisher map_publisher_node --ros-args -p map_file:=/home/recoomputer/turtlebot4_ws/mapadd.pgm -p yaml_file:=/home/recoomputer/turtlebot4_ws/mapadd.yaml
+----------------------------------------------------------------------------
+nv2:
+ros2 launch turtlebot4_navigation nav2.launch.py 
+----------------------------------------------------------------------------
+建圖:
+ros2 launch turtlebot4_navigation slam.launch.py  # 或你的 launch
+----------------------------------------------------------------------------
+save map
+ros2 service call /slamoolbox/save_map slam_toolbox/srv/SaveMap "{name: {data: '/home/open/work/mymap'}}"
+----------------------------------------------------------------------------
+局部規劃器
+Failed to create controller. Exception:
+According to the loaded plugin descriptions the class nav2_teb_controller::TebController with base class type nav2_core::Controller does not exist.
+Declared types are:
+- dwb_core::DWBLocalPlanner
+- nav2_mppi_controller::MPPIController
+- nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController
+- nav2_rotation_shim_controller::RotationShimController
+----------------------------------------------------------------------------
+git hub:
+rm -rf .git
+git add .
+git commit -m "updete"
+git push
+----------------------------------------------------------------------------
+全能賽
+ros2 run pose_navigator pose_navigator
+
+分項賽
+ros2 run pose_navigator color_navigator
+
+全能賽
+ros2 topic pub --once /car_command std_msgs/msg/String "data: 'B'"
+ros2 run pose_navigator coretask
+Blue,Green,Yellow
+/color_sort
+
+ros2 topic pub /pose_name std_msgs/msg/String "{data: 'left'}" --once
+----------------------------------------------------------------------------
+ ros2 launch turtlebot4_navigation slam.launch.pyros2 launch turtlebot4_navigation localization.launch.py  map:=/home/recoomputer/turtlebot4_ws/map.yaml
+
+
+
+
+
+
+ssh ubuntu@192.168.174.215
+
+
+launch turtlebot4_navigation localization.launch.py map:=/home/open/work/mymap.yaml
+
+
+
+ros2 topic hz /scan
+date -u
+

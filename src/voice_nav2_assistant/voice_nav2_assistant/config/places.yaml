@@ -1,0 +1,4 @@
+snack_bin:     {x: 3.12, y: -1.45, yaw: 1.57}
+kitchen_table: {x: 5.40, y:  0.30, yaw: 0.0}
+meeting_room:  {x: -2.10, y: 1.80, yaw: 3.14}
+

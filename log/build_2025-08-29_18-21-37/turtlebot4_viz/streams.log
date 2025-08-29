@@ -1,0 +1,28 @@
+[0.080s] Invoking command in '/home/jetson/tb420250806/build/turtlebot4_viz': AMENT_PREFIX_PATH=/home/jetson/tb420250806/install/turtlebot4_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/tb420250806/install/turtlebot4_description:/opt/ros/humble /usr/bin/cmake --build /home/jetson/tb420250806/build/turtlebot4_viz -- -j8 -l8
+[0.160s] Invoked command in '/home/jetson/tb420250806/build/turtlebot4_viz' returned '0': AMENT_PREFIX_PATH=/home/jetson/tb420250806/install/turtlebot4_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/tb420250806/install/turtlebot4_description:/opt/ros/humble /usr/bin/cmake --build /home/jetson/tb420250806/build/turtlebot4_viz -- -j8 -l8
+[0.163s] Invoking command in '/home/jetson/tb420250806/build/turtlebot4_viz': AMENT_PREFIX_PATH=/home/jetson/tb420250806/install/turtlebot4_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/tb420250806/install/turtlebot4_description:/opt/ros/humble /usr/bin/cmake --install /home/jetson/tb420250806/build/turtlebot4_viz
+[0.181s] -- Install configuration: ""
+[0.182s] -- Execute custom install script
+[0.183s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/launch/view_diagnostics.launch.py
+[0.183s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/launch/view_model.launch.py
+[0.183s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/launch/view_navigation.launch.py
+[0.184s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/launch/view_robot.launch.py
+[0.184s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/rviz/model.rviz
+[0.184s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/rviz/navigation.rviz
+[0.184s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/rviz/robot.rviz
+[0.184s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/ament_index/resource_index/package_run_dependencies/turtlebot4_viz
+[0.185s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/ament_index/resource_index/parent_prefix_path/turtlebot4_viz
+[0.185s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/environment/ament_prefix_path.sh
+[0.185s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/environment/ament_prefix_path.dsv
+[0.185s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/environment/path.sh
+[0.186s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/environment/path.dsv
+[0.186s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/local_setup.bash
+[0.186s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/local_setup.sh
+[0.186s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/local_setup.zsh
+[0.187s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/local_setup.dsv
+[0.187s] -- Symlinking: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/package.dsv
+[0.206s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/ament_index/resource_index/packages/turtlebot4_viz
+[0.206s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/cmake/turtlebot4_vizConfig.cmake
+[0.206s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/cmake/turtlebot4_vizConfig-version.cmake
+[0.206s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_viz/share/turtlebot4_viz/package.xml
+[0.678s] Invoked command in '/home/jetson/tb420250806/build/turtlebot4_viz' returned '0': AMENT_PREFIX_PATH=/home/jetson/tb420250806/install/turtlebot4_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/tb420250806/install/turtlebot4_description:/opt/ros/humble /usr/bin/cmake --install /home/jetson/tb420250806/build/turtlebot4_viz

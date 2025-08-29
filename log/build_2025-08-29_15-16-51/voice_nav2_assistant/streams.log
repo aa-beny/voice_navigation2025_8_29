@@ -1,0 +1,28 @@
+[1.207s] Invoking command in '/home/jetson/tb420250806/build/voice_nav2_assistant': PYTHONPATH=/home/jetson/tb420250806/build/voice_nav2_assistant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/tb420250806/install/voice_nav2_assistant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/tb420250806/build/voice_nav2_assistant/build --no-deps symlink_data
+[1.750s] running develop
+[2.096s] running egg_info
+[2.096s] creating voice_nav2_assistant.egg-info
+[2.096s] writing voice_nav2_assistant.egg-info/PKG-INFO
+[2.097s] writing dependency_links to voice_nav2_assistant.egg-info/dependency_links.txt
+[2.097s] writing entry points to voice_nav2_assistant.egg-info/entry_points.txt
+[2.097s] writing requirements to voice_nav2_assistant.egg-info/requires.txt
+[2.097s] writing top-level names to voice_nav2_assistant.egg-info/top_level.txt
+[2.098s] writing manifest file 'voice_nav2_assistant.egg-info/SOURCES.txt'
+[2.102s] reading manifest file 'voice_nav2_assistant.egg-info/SOURCES.txt'
+[2.103s] writing manifest file 'voice_nav2_assistant.egg-info/SOURCES.txt'
+[2.106s] running build_ext
+[2.106s] Creating /home/jetson/tb420250806/install/voice_nav2_assistant/lib/python3.10/site-packages/voice-nav2-assistant.egg-link (link to .)
+[2.108s] Installing voice_nav_node script to /home/jetson/tb420250806/install/voice_nav2_assistant/lib/voice_nav2_assistant
+[2.109s] 
+[2.109s] Installed /home/jetson/tb420250806/build/voice_nav2_assistant
+[2.109s] running symlink_data
+[2.110s] creating /home/jetson/tb420250806/install/voice_nav2_assistant/share/ament_index
+[2.110s] creating /home/jetson/tb420250806/install/voice_nav2_assistant/share/ament_index/resource_index
+[2.110s] creating /home/jetson/tb420250806/install/voice_nav2_assistant/share/ament_index/resource_index/packages
+[2.110s] symbolically linking /home/jetson/tb420250806/build/voice_nav2_assistant/resource/voice_nav2_assistant -> /home/jetson/tb420250806/install/voice_nav2_assistant/share/ament_index/resource_index/packages
+[2.110s] symbolically linking /home/jetson/tb420250806/build/voice_nav2_assistant/package.xml -> /home/jetson/tb420250806/install/voice_nav2_assistant/share/voice_nav2_assistant
+[2.111s] creating /home/jetson/tb420250806/install/voice_nav2_assistant/share/voice_nav2_assistant/config
+[2.111s] symbolically linking /home/jetson/tb420250806/build/voice_nav2_assistant/voice_nav2_assistant/config/places.yaml -> /home/jetson/tb420250806/install/voice_nav2_assistant/share/voice_nav2_assistant/config
+[2.111s] creating /home/jetson/tb420250806/install/voice_nav2_assistant/share/voice_nav2_assistant/launch
+[2.111s] symbolically linking /home/jetson/tb420250806/build/voice_nav2_assistant/voice_nav2_assistant/launch/from_file.launch.py -> /home/jetson/tb420250806/install/voice_nav2_assistant/share/voice_nav2_assistant/launch
+[2.181s] Invoked command in '/home/jetson/tb420250806/build/voice_nav2_assistant' returned '0': PYTHONPATH=/home/jetson/tb420250806/build/voice_nav2_assistant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/tb420250806/install/voice_nav2_assistant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/tb420250806/build/voice_nav2_assistant/build --no-deps symlink_data

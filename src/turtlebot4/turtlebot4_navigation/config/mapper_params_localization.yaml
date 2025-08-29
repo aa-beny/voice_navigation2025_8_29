@@ -1,0 +1,70 @@
+slam_toolbox:
+  ros__parameters:
+    solver_plugin: solver_plugins::CeresSolver # 使用的求解器插件，影響優化精度與速度
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY # Ceres線性求解器類型，影響大地圖計算效率
+    ceres_preconditioner: SCHUR_JACOBI # Ceres預條件器類型，提升優化收斂速度
+    ceres_trust_strategy: LEVENBERG_MARQUARDT # Ceres信賴域策略，影響優化穩定性
+    ceres_dogleg_type: TRADITIONAL_DOGLEG # Ceres Dogleg方法類型，影響優化路徑
+    ceres_loss_function: None # Ceres損失函數，None表示不抑制異常值，定位時建議根據情境調整
+
+    # ROS Parameters
+    odom_frame: odom # 里程計座標系名稱，影響定位時的參考座標
+    map_frame: map # 地圖座標系名稱，定位結果會發佈在此座標系
+    base_frame: base_footprint # 機器人基座座標系名稱，影響tf樹結構
+    scan_topic: scan # 雷射掃描話題名稱，決定從哪個topic取得雷射資料
+    mode: localization #localization # 運行模式（mapping為建圖，localization為定位），定位模式下不會更新地圖
+
+    # if you'd like to start localizing on bringup in a map and pose
+    map_file_name: /home/recoomputer/turtlebot4_ws/map # 啟動時載入的地圖檔案名稱，影響定位初始地圖
+    map_start_pose: [0.0, 0.0, 1.0] # 啟動時的初始位姿 [x, y, theta]，影響定位初始點
+
+    debug_logging: false # 是否啟用除錯日誌，開啟會影響效能但有助於問題排查
+    throttle_scans: 1 # 處理的掃描訊息間隔，數值越大處理頻率越低，減少CPU負載但降低即時性
+    transform_publish_period: 0.02 # 發布tf變換的週期（秒），0則不發布，數值越小定位結果越即時
+    map_update_interval: 5.0 # 地圖更新間隔（秒），定位模式下通常無效
+    resolution: 0.005 # 地圖解析度（公尺/像素），數值越小地圖越精細但記憶體消耗越大
+    min_laser_range: 0.2 # 雷射最小量測距離，過濾過近雜訊
+    max_laser_range: 10.0 # 雷射最大量測距離，過濾過遠雜訊
+    minimum_time_interval: 0.5 # 兩次掃描最小時間間隔（秒），避免過度頻繁處理
+    transform_timeout: 0.2 # tf變換超時時間（秒），過小可能導致tf查詢失敗
+    tf_buffer_duration: 30. # tf緩衝區持續時間（秒），影響歷史tf查詢能力
+    stack_size_to_use: 40000000 # 程式堆疊大小（位元組），序列化大地圖時需要較大堆疊，否則可能崩潰
+
+    # General Parameters
+    use_scan_matching: true # 是否啟用掃描匹配，提升定位精度
+    use_scan_barycenter: true # 是否使用掃描重心，提升匹配穩定性
+    minimum_travel_distance: 0.5 # 兩次掃描間最小移動距離（公尺），過小會增加計算量
+    minimum_travel_heading: 0.5 # 兩次掃描間最小旋轉角度（弧度），過小會增加計算量
+    scan_buffer_size: 3 # 掃描緩衝區大小，影響匹配歷史資料的能力
+    scan_buffer_maximum_scan_distance: 10.0 # 緩衝區內最大掃描距離（公尺），過大會降低效率
+    link_match_minimum_response_fine: 0.1  # 精細匹配最小響應值，過高會忽略部分匹配
+    link_scan_maximum_distance: 1.5 # 匹配時最大掃描距離（公尺），過大會降低精度
+    do_loop_closing: true # 是否啟用回環閉合，提升長時間定位穩定性
+    loop_match_minimum_chain_size: 3 # 回環匹配最小鏈長，過大會降低回環檢測靈敏度
+    loop_match_maximum_variance_coarse: 3.0  # 回環粗略匹配最大變異數，過大會增加誤匹配
+    loop_match_minimum_response_coarse: 0.35    # 回環粗略匹配最小響應值，過高會漏檢回環
+    loop_match_minimum_response_fine: 0.45 # 回環精細匹配最小響應值，過高會漏檢回環
+
+    # Correlation Parameters - Correlation Parameters
+    correlation_search_space_dimension: 0.5 # 相關性搜尋空間維度（公尺），影響匹配範圍與速度
+    correlation_search_space_resolution: 0.01 # 相關性搜尋空間解析度（公尺），越小越精細但計算量大
+    correlation_search_space_smear_deviation: 0.1 # 相關性搜尋空間模糊標準差，影響匹配容錯
+
+    # Correlation Parameters - Loop Closure Parameters
+    loop_search_space_dimension: 8.0 # 回環搜尋空間維度（公尺），越大越容易檢測回環但計算量大
+    loop_search_space_resolution: 0.05 # 回環搜尋空間解析度（公尺），越小越精細但計算量大
+    loop_search_space_smear_deviation: 0.03 # 回環搜尋空間模糊標準差，影響回環匹配容錯
+    loop_search_maximum_distance: 3.0 # 回環搜尋最大距離（公尺），過大會增加誤檢
+
+    # Scan Matcher Parameters
+    distance_variance_penalty: 0.5      # 距離變異懲罰因子，越大越不允許距離誤差
+    angle_variance_penalty: 1.0         # 角度變異懲罰因子，越大越不允許角度誤差
+
+    fine_search_angle_offset: 0.00349   # 精細搜尋角度偏移（弧度），越小越精細但計算量大
+    coarse_search_angle_offset: 0.349   # 粗略搜尋角度偏移（弧度），影響初步匹配範圍
+    coarse_angle_resolution: 0.0349     # 粗略角度解析度（弧度），越小越精細但計算量大
+    minimum_angle_penalty: 0.9          # 最小角度懲罰，過大會忽略角度誤差
+    minimum_distance_penalty: 0.5       # 最小距離懲罰，過大會忽略距離誤差
+    use_response_expansion: true        # 是否使用響應擴展，提升匹配穩定性
+    min_pass_through: 2                 # 最小通過次數，過大會忽略部分資料
+    occupancy_threshold: 0.1            # 佔據閾值，影響地圖二值化效果

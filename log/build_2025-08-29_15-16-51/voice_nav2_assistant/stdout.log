@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating voice_nav2_assistant.egg-info
+writing voice_nav2_assistant.egg-info/PKG-INFO
+writing dependency_links to voice_nav2_assistant.egg-info/dependency_links.txt
+writing entry points to voice_nav2_assistant.egg-info/entry_points.txt
+writing requirements to voice_nav2_assistant.egg-info/requires.txt
+writing top-level names to voice_nav2_assistant.egg-info/top_level.txt
+writing manifest file 'voice_nav2_assistant.egg-info/SOURCES.txt'
+reading manifest file 'voice_nav2_assistant.egg-info/SOURCES.txt'
+writing manifest file 'voice_nav2_assistant.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/tb420250806/install/voice_nav2_assistant/lib/python3.10/site-packages/voice-nav2-assistant.egg-link (link to .)
+Installing voice_nav_node script to /home/jetson/tb420250806/install/voice_nav2_assistant/lib/voice_nav2_assistant
+
+Installed /home/jetson/tb420250806/build/voice_nav2_assistant
+running symlink_data
+creating /home/jetson/tb420250806/install/voice_nav2_assistant/share/ament_index
+creating /home/jetson/tb420250806/install/voice_nav2_assistant/share/ament_index/resource_index
+creating /home/jetson/tb420250806/install/voice_nav2_assistant/share/ament_index/resource_index/packages
+symbolically linking /home/jetson/tb420250806/build/voice_nav2_assistant/resource/voice_nav2_assistant -> /home/jetson/tb420250806/install/voice_nav2_assistant/share/ament_index/resource_index/packages
+symbolically linking /home/jetson/tb420250806/build/voice_nav2_assistant/package.xml -> /home/jetson/tb420250806/install/voice_nav2_assistant/share/voice_nav2_assistant
+creating /home/jetson/tb420250806/install/voice_nav2_assistant/share/voice_nav2_assistant/config
+symbolically linking /home/jetson/tb420250806/build/voice_nav2_assistant/voice_nav2_assistant/config/places.yaml -> /home/jetson/tb420250806/install/voice_nav2_assistant/share/voice_nav2_assistant/config
+creating /home/jetson/tb420250806/install/voice_nav2_assistant/share/voice_nav2_assistant/launch
+symbolically linking /home/jetson/tb420250806/build/voice_nav2_assistant/voice_nav2_assistant/launch/from_file.launch.py -> /home/jetson/tb420250806/install/voice_nav2_assistant/share/voice_nav2_assistant/launch

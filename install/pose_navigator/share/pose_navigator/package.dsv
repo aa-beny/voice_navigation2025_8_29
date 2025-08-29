@@ -1,0 +1,9 @@
+source;share/pose_navigator/hook/pythonpath.ps1
+source;share/pose_navigator/hook/pythonpath.dsv
+source;share/pose_navigator/hook/pythonpath.sh
+source;share/pose_navigator/hook/ament_prefix_path.ps1
+source;share/pose_navigator/hook/ament_prefix_path.dsv
+source;share/pose_navigator/hook/ament_prefix_path.sh
+source;../../build/pose_navigator/share/pose_navigator/hook/pythonpath_develop.ps1
+source;../../build/pose_navigator/share/pose_navigator/hook/pythonpath_develop.dsv
+source;../../build/pose_navigator/share/pose_navigator/hook/pythonpath_develop.sh

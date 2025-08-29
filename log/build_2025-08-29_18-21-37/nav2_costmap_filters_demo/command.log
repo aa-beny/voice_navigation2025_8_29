@@ -1,0 +1,4 @@
+Invoking command in '/home/jetson/tb420250806/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/tb420250806/build/nav2_costmap_filters_demo -- -j8 -l8
+Invoked command in '/home/jetson/tb420250806/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/tb420250806/build/nav2_costmap_filters_demo -- -j8 -l8
+Invoking command in '/home/jetson/tb420250806/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/tb420250806/build/nav2_costmap_filters_demo
+Invoked command in '/home/jetson/tb420250806/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/tb420250806/build/nav2_costmap_filters_demo

@@ -1,0 +1,40 @@
+[0.081s] Invoking command in '/home/jetson/tb420250806/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --build /home/jetson/tb420250806/build/turtlebot4_description -- -j8 -l8
+[1.148s] Invoked command in '/home/jetson/tb420250806/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --build /home/jetson/tb420250806/build/turtlebot4_description -- -j8 -l8
+[1.162s] Invoking command in '/home/jetson/tb420250806/build/turtlebot4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --install /home/jetson/tb420250806/build/turtlebot4_description
+[1.176s] -- Install configuration: ""
+[1.178s] -- Execute custom install script
+[1.178s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/launch/robot_description.launch.py
+[1.179s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/meshes/camera_bracket.dae
+[1.179s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_lite.dae
+[1.179s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/meshes/oakd_pro.dae
+[1.179s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/meshes/rplidar.dae
+[1.180s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/meshes/shell.dae
+[1.180s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/meshes/shell_collision.dae
+[1.180s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/meshes/tower.dae
+[1.180s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_sensor_plate.dae
+[1.180s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/meshes/tower_standoff.dae
+[1.181s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/meshes/weight_block.dae
+[1.181s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/urdf/lite/turtlebot4.urdf.xacro
+[1.182s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/camera_bracket.urdf.xacro
+[1.182s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/oakd.urdf.xacro
+[1.183s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/urdf/sensors/rplidar.urdf.xacro
+[1.184s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_sensor_plate.urdf.xacro
+[1.184s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/tower_standoff.urdf.xacro
+[1.186s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/turtlebot4.urdf.xacro
+[1.188s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/urdf/standard/weight_block.urdf.xacro
+[1.188s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/ament_index/resource_index/package_run_dependencies/turtlebot4_description
+[1.190s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/ament_index/resource_index/parent_prefix_path/turtlebot4_description
+[1.195s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.sh
+[1.195s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/environment/ament_prefix_path.dsv
+[1.195s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/environment/path.sh
+[1.196s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/environment/path.dsv
+[1.196s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/local_setup.bash
+[1.196s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/local_setup.sh
+[1.196s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/local_setup.zsh
+[1.196s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/local_setup.dsv
+[1.197s] -- Symlinking: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/package.dsv
+[1.202s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/ament_index/resource_index/packages/turtlebot4_description
+[1.203s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig.cmake
+[1.203s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/cmake/turtlebot4_descriptionConfig-version.cmake
+[1.203s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_description/share/turtlebot4_description/package.xml
+[1.231s] Invoked command in '/home/jetson/tb420250806/build/turtlebot4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --install /home/jetson/tb420250806/build/turtlebot4_description

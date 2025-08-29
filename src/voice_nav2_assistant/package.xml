@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>voice_nav2_assistant</name>
+  <version>0.1.0</version>
+  <description>ASR → NLU → Nav2</description>
+  <maintainer email="jetson@todo.todo">jetson</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

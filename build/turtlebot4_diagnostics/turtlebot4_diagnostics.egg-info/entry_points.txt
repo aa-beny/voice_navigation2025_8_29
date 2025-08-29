@@ -1,0 +1,3 @@
+[console_scripts]
+diagnostics_updater = turtlebot4_diagnostics.diagnostics_updater:main
+

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: voice-nav2-assistant
+Version: 0.1.0
+Summary: ASR (file/mic) → NLU (rules/LLM) → Nav2
+Home-page: UNKNOWN
+Maintainer: jetson
+Maintainer-email: jetson@todo.todo
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

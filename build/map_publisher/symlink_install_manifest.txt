@@ -1,0 +1,16 @@
+/home/jetson/tb420250806/install/map_publisher/lib/map_publisher/map_publisher_node
+/home/jetson/tb420250806/install/map_publisher/share/ament_index/resource_index/package_run_dependencies/map_publisher
+/home/jetson/tb420250806/install/map_publisher/share/ament_index/resource_index/parent_prefix_path/map_publisher
+/home/jetson/tb420250806/install/map_publisher/share/map_publisher/environment/ament_prefix_path.sh
+/home/jetson/tb420250806/install/map_publisher/share/map_publisher/environment/ament_prefix_path.dsv
+/home/jetson/tb420250806/install/map_publisher/share/map_publisher/environment/path.sh
+/home/jetson/tb420250806/install/map_publisher/share/map_publisher/environment/path.dsv
+/home/jetson/tb420250806/install/map_publisher/share/map_publisher/local_setup.bash
+/home/jetson/tb420250806/install/map_publisher/share/map_publisher/local_setup.sh
+/home/jetson/tb420250806/install/map_publisher/share/map_publisher/local_setup.zsh
+/home/jetson/tb420250806/install/map_publisher/share/map_publisher/local_setup.dsv
+/home/jetson/tb420250806/install/map_publisher/share/map_publisher/package.dsv
+/home/jetson/tb420250806/install/map_publisher/share/ament_index/resource_index/packages/map_publisher
+/home/jetson/tb420250806/install/map_publisher/share/map_publisher/cmake/map_publisherConfig.cmake
+/home/jetson/tb420250806/install/map_publisher/share/map_publisher/cmake/map_publisherConfig-version.cmake
+/home/jetson/tb420250806/install/map_publisher/share/map_publisher/package.xml

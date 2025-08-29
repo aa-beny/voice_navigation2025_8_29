@@ -1,0 +1,17 @@
+[2.018s] Invoking command in '/home/jetson/tb420250806/build/turtlebot4_diagnostics': PYTHONPATH=/home/jetson/tb420250806/build/turtlebot4_diagnostics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/tb420250806/install/turtlebot4_diagnostics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/tb420250806/build/turtlebot4_diagnostics/build --no-deps symlink_data
+[2.537s] running develop
+[2.876s] running egg_info
+[2.876s] writing turtlebot4_diagnostics.egg-info/PKG-INFO
+[2.876s] writing dependency_links to turtlebot4_diagnostics.egg-info/dependency_links.txt
+[2.877s] writing entry points to turtlebot4_diagnostics.egg-info/entry_points.txt
+[2.877s] writing requirements to turtlebot4_diagnostics.egg-info/requires.txt
+[2.877s] writing top-level names to turtlebot4_diagnostics.egg-info/top_level.txt
+[2.882s] reading manifest file 'turtlebot4_diagnostics.egg-info/SOURCES.txt'
+[2.882s] writing manifest file 'turtlebot4_diagnostics.egg-info/SOURCES.txt'
+[2.884s] running build_ext
+[2.884s] Creating /home/jetson/tb420250806/install/turtlebot4_diagnostics/lib/python3.10/site-packages/turtlebot4-diagnostics.egg-link (link to .)
+[2.886s] Installing diagnostics_updater script to /home/jetson/tb420250806/install/turtlebot4_diagnostics/lib/turtlebot4_diagnostics
+[2.887s] 
+[2.887s] Installed /home/jetson/tb420250806/build/turtlebot4_diagnostics
+[2.888s] running symlink_data
+[2.977s] Invoked command in '/home/jetson/tb420250806/build/turtlebot4_diagnostics' returned '0': PYTHONPATH=/home/jetson/tb420250806/build/turtlebot4_diagnostics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/tb420250806/install/turtlebot4_diagnostics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/tb420250806/build/turtlebot4_diagnostics/build --no-deps symlink_data

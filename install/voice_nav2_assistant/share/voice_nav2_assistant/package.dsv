@@ -1,0 +1,9 @@
+source;share/voice_nav2_assistant/hook/pythonpath.ps1
+source;share/voice_nav2_assistant/hook/pythonpath.dsv
+source;share/voice_nav2_assistant/hook/pythonpath.sh
+source;share/voice_nav2_assistant/hook/ament_prefix_path.ps1
+source;share/voice_nav2_assistant/hook/ament_prefix_path.dsv
+source;share/voice_nav2_assistant/hook/ament_prefix_path.sh
+source;../../build/voice_nav2_assistant/share/voice_nav2_assistant/hook/pythonpath_develop.ps1
+source;../../build/voice_nav2_assistant/share/voice_nav2_assistant/hook/pythonpath_develop.dsv
+source;../../build/voice_nav2_assistant/share/voice_nav2_assistant/hook/pythonpath_develop.sh

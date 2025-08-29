@@ -1,0 +1,9 @@
+[console_scripts]
+color_navigator = pose_navigator.color_navigatorold:main
+coretask = pose_navigator.coretask:main
+forward_return_node = pose_navigator.forward_return_node:main
+pose_navigator = pose_navigator.pose_navigator_node:main
+pose_navigator_node = pose_navigator.pose_navigator_node:main
+test_color_sequence = pose_navigator.test_color_sequence:main
+test_waypoints = pose_navigator.test_waypoints:main
+

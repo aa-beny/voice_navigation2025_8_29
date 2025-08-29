@@ -1,0 +1,23 @@
+[1.318s] Invoking command in '/home/jetson/tb420250806/build/pose_navigator': AMENT_PREFIX_PATH=/home/jetson/tb420250806/install/turtlebot4_navigation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/tb420250806/install/turtlebot4_navigation PYTHONPATH=/home/jetson/tb420250806/build/pose_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/tb420250806/install/pose_navigator/lib/python3.10/site-packages:/home/jetson/tb420250806/install/turtlebot4_navigation/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/tb420250806/build/pose_navigator/build --no-deps symlink_data
+[1.798s] running develop
+[2.108s] running egg_info
+[2.109s] writing pose_navigator.egg-info/PKG-INFO
+[2.109s] writing dependency_links to pose_navigator.egg-info/dependency_links.txt
+[2.109s] writing entry points to pose_navigator.egg-info/entry_points.txt
+[2.110s] writing requirements to pose_navigator.egg-info/requires.txt
+[2.110s] writing top-level names to pose_navigator.egg-info/top_level.txt
+[2.113s] reading manifest file 'pose_navigator.egg-info/SOURCES.txt'
+[2.114s] writing manifest file 'pose_navigator.egg-info/SOURCES.txt'
+[2.117s] running build_ext
+[2.117s] Creating /home/jetson/tb420250806/install/pose_navigator/lib/python3.10/site-packages/pose-navigator.egg-link (link to .)
+[2.119s] Installing color_navigator script to /home/jetson/tb420250806/install/pose_navigator/lib/pose_navigator
+[2.119s] Installing coretask script to /home/jetson/tb420250806/install/pose_navigator/lib/pose_navigator
+[2.119s] Installing forward_return_node script to /home/jetson/tb420250806/install/pose_navigator/lib/pose_navigator
+[2.120s] Installing pose_navigator script to /home/jetson/tb420250806/install/pose_navigator/lib/pose_navigator
+[2.120s] Installing pose_navigator_node script to /home/jetson/tb420250806/install/pose_navigator/lib/pose_navigator
+[2.120s] Installing test_color_sequence script to /home/jetson/tb420250806/install/pose_navigator/lib/pose_navigator
+[2.120s] Installing test_waypoints script to /home/jetson/tb420250806/install/pose_navigator/lib/pose_navigator
+[2.121s] 
+[2.121s] Installed /home/jetson/tb420250806/build/pose_navigator
+[2.121s] running symlink_data
+[2.186s] Invoked command in '/home/jetson/tb420250806/build/pose_navigator' returned '0': AMENT_PREFIX_PATH=/home/jetson/tb420250806/install/turtlebot4_navigation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/tb420250806/install/turtlebot4_navigation PYTHONPATH=/home/jetson/tb420250806/build/pose_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/tb420250806/install/pose_navigator/lib/python3.10/site-packages:/home/jetson/tb420250806/install/turtlebot4_navigation/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/tb420250806/build/pose_navigator/build --no-deps symlink_data

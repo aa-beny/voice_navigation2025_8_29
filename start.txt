@@ -1,5 +1,6 @@
 time
 date -u
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ----------------------------------------------------------------------------
 voice
 
@@ -59,13 +60,15 @@ ros2 launch turtlebot4_viz view_robot.launch.py
 ----------------------------------------------------------------------------
 
 local:
-ros2 launch turtlebot4_navigation slam.launch.py params:=/home/recoomputer/turtlebot4_ws/src/turtlebot4/turtlebot4_navigation/config/mapper_params_localization.yaml
+ros2 launch turtlebot4_navigation slam.launch.py params:=/home/jetson/tb420250806/src/turtlebot4/turtlebot4_navigation/config/mapper_params_localization.yaml
 ----------------------------------------------------------------------------
 調參數:
 ros2 run rqt_reconfigure rqt_reconfigure
 ----------------------------------------------------------------------------
 AMCL:
-ros2 launch turtlebot4_navigation localization.launch.py map:=/home/recoomputer/benytb4_ws/map.yaml
+ros2 launch turtlebot4_navigation localization.launch.py map:=/home/jetson/tb420250806/src/912map.yaml
+
+
 ----------------------------------------------------------------------------
 
 costamp:
@@ -78,7 +81,8 @@ ros2 launch turtlebot4_navigation nav2.launch.py
 ros2 launch turtlebot4_navigation slam.launch.py  # 或你的 launch
 ----------------------------------------------------------------------------
 save map
-ros2 service call /slamoolbox/save_map slam_toolbox/srv/SaveMap "{name: {data: '/home/open/work/mymap'}}"
+ros2 service call /slam_toolbox/save_map \
+  slam_toolbox/srv/SaveMap "{name: {data: '/home/jetson/tb420250806/src/912map'}}"
 ----------------------------------------------------------------------------
 局部規劃器
 Failed to create controller. Exception:
@@ -109,7 +113,7 @@ Blue,Green,Yellow
 
 ros2 topic pub /pose_name std_msgs/msg/String "{data: 'left'}" --once
 ----------------------------------------------------------------------------
- ros2 launch turtlebot4_navigation slam.launch.pyros2 launch turtlebot4_navigation localization.launch.py  map:=/home/recoomputer/turtlebot4_ws/map.yaml
+ros2 launch turtlebot4_navigation slam.launch.pyros2 launch turtlebot4_navigation localization.launch.py  map:=/home/recoomputer/turtlebot4_ws/map.yaml
 
 
 

@@ -10,12 +10,13 @@ slam_toolbox:
     # ROS Parameters
     odom_frame: odom # 里程計座標系名稱，影響定位時的參考座標
     map_frame: map # 地圖座標系名稱，定位結果會發佈在此座標系
-    base_frame: base_footprint # 機器人基座座標系名稱，影響tf樹結構
+    # base_frame: base_footprint # 機器人基座座標系名稱，影響tf樹結構
+    base_frame: base_link # 機器人基座座標系名稱，影響tf樹結構
     scan_topic: scan # 雷射掃描話題名稱，決定從哪個topic取得雷射資料
     mode: localization #localization # 運行模式（mapping為建圖，localization為定位），定位模式下不會更新地圖
 
     # if you'd like to start localizing on bringup in a map and pose
-    map_file_name: /home/recoomputer/turtlebot4_ws/map # 啟動時載入的地圖檔案名稱，影響定位初始地圖
+    map_file_name: /home/jetson/tb420250806/src/912map # 啟動時載入的地圖檔案名稱，影響定位初始地圖
     map_start_pose: [0.0, 0.0, 1.0] # 啟動時的初始位姿 [x, y, theta]，影響定位初始點
 
     debug_logging: false # 是否啟用除錯日誌，開啟會影響效能但有助於問題排查

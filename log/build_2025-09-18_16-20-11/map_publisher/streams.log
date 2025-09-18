@@ -1,0 +1,23 @@
+[0.464s] Invoking command in '/home/jetson/tb420250806/build/map_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --build /home/jetson/tb420250806/build/map_publisher -- -j12 -l12
+[0.551s] [100%] Built target map_publisher_node
+[0.932s] Invoked command in '/home/jetson/tb420250806/build/map_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --build /home/jetson/tb420250806/build/map_publisher -- -j12 -l12
+[0.934s] Invoking command in '/home/jetson/tb420250806/build/map_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --install /home/jetson/tb420250806/build/map_publisher
+[0.957s] -- Install configuration: ""
+[0.957s] -- Execute custom install script
+[0.957s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/lib/map_publisher/map_publisher_node
+[0.957s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/share/ament_index/resource_index/package_run_dependencies/map_publisher
+[0.957s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/share/ament_index/resource_index/parent_prefix_path/map_publisher
+[0.957s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/share/map_publisher/environment/ament_prefix_path.sh
+[0.957s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/share/map_publisher/environment/ament_prefix_path.dsv
+[0.958s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/share/map_publisher/environment/path.sh
+[0.958s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/share/map_publisher/environment/path.dsv
+[0.958s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/share/map_publisher/local_setup.bash
+[0.958s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/share/map_publisher/local_setup.sh
+[0.958s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/share/map_publisher/local_setup.zsh
+[0.958s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/share/map_publisher/local_setup.dsv
+[0.958s] -- Symlinking: /home/jetson/tb420250806/install/map_publisher/share/map_publisher/package.dsv
+[0.963s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/share/ament_index/resource_index/packages/map_publisher
+[0.964s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/share/map_publisher/cmake/map_publisherConfig.cmake
+[0.969s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/share/map_publisher/cmake/map_publisherConfig-version.cmake
+[0.969s] -- Up-to-date symlink: /home/jetson/tb420250806/install/map_publisher/share/map_publisher/package.xml
+[0.980s] Invoked command in '/home/jetson/tb420250806/build/map_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --install /home/jetson/tb420250806/build/map_publisher

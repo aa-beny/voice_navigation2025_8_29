@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing pose_navigator.egg-info/PKG-INFO
+writing dependency_links to pose_navigator.egg-info/dependency_links.txt
+writing entry points to pose_navigator.egg-info/entry_points.txt
+writing requirements to pose_navigator.egg-info/requires.txt
+writing top-level names to pose_navigator.egg-info/top_level.txt
+reading manifest file 'pose_navigator.egg-info/SOURCES.txt'
+writing manifest file 'pose_navigator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/tb420250806/install/pose_navigator/lib/python3.10/site-packages/pose-navigator.egg-link (link to .)
+Installing color_navigator script to /home/jetson/tb420250806/install/pose_navigator/lib/pose_navigator
+Installing coretask script to /home/jetson/tb420250806/install/pose_navigator/lib/pose_navigator
+Installing forward_return_node script to /home/jetson/tb420250806/install/pose_navigator/lib/pose_navigator
+Installing pose_navigator script to /home/jetson/tb420250806/install/pose_navigator/lib/pose_navigator
+Installing pose_navigator_node script to /home/jetson/tb420250806/install/pose_navigator/lib/pose_navigator
+Installing test_color_sequence script to /home/jetson/tb420250806/install/pose_navigator/lib/pose_navigator
+Installing test_waypoints script to /home/jetson/tb420250806/install/pose_navigator/lib/pose_navigator
+
+Installed /home/jetson/tb420250806/build/pose_navigator
+running symlink_data

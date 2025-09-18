@@ -1,0 +1,17 @@
+[2.195s] Invoking command in '/home/jetson/tb420250806/build/voice_nav2_assistant': PYTHONPATH=/home/jetson/tb420250806/build/voice_nav2_assistant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/tb420250806/install/voice_nav2_assistant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/tb420250806/build/voice_nav2_assistant/build --no-deps symlink_data
+[2.625s] running develop
+[2.888s] running egg_info
+[2.888s] writing voice_nav2_assistant.egg-info/PKG-INFO
+[2.888s] writing dependency_links to voice_nav2_assistant.egg-info/dependency_links.txt
+[2.889s] writing entry points to voice_nav2_assistant.egg-info/entry_points.txt
+[2.889s] writing requirements to voice_nav2_assistant.egg-info/requires.txt
+[2.889s] writing top-level names to voice_nav2_assistant.egg-info/top_level.txt
+[2.893s] reading manifest file 'voice_nav2_assistant.egg-info/SOURCES.txt'
+[2.894s] writing manifest file 'voice_nav2_assistant.egg-info/SOURCES.txt'
+[2.897s] running build_ext
+[2.897s] Creating /home/jetson/tb420250806/install/voice_nav2_assistant/lib/python3.10/site-packages/voice-nav2-assistant.egg-link (link to .)
+[2.898s] Installing voice_nav_node script to /home/jetson/tb420250806/install/voice_nav2_assistant/lib/voice_nav2_assistant
+[2.899s] 
+[2.899s] Installed /home/jetson/tb420250806/build/voice_nav2_assistant
+[2.899s] running symlink_data
+[2.972s] Invoked command in '/home/jetson/tb420250806/build/voice_nav2_assistant' returned '0': PYTHONPATH=/home/jetson/tb420250806/build/voice_nav2_assistant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/tb420250806/install/voice_nav2_assistant/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/tb420250806/build/voice_nav2_assistant/build --no-deps symlink_data

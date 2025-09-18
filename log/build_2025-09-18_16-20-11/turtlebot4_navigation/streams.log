@@ -1,0 +1,55 @@
+[0.466s] Invoking command in '/home/jetson/tb420250806/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --build /home/jetson/tb420250806/build/turtlebot4_navigation -- -j12 -l12
+[0.550s] Built target ament_cmake_python_symlink_turtlebot4_navigation
+[0.943s] running egg_info
+[0.945s] writing turtlebot4_navigation.egg-info/PKG-INFO
+[0.945s] writing dependency_links to turtlebot4_navigation.egg-info/dependency_links.txt
+[0.946s] writing top-level names to turtlebot4_navigation.egg-info/top_level.txt
+[0.949s] reading manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[0.954s] writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[1.009s] Built target ament_cmake_python_build_turtlebot4_navigation_egg
+[1.082s] Invoked command in '/home/jetson/tb420250806/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --build /home/jetson/tb420250806/build/turtlebot4_navigation -- -j12 -l12
+[1.083s] Invoking command in '/home/jetson/tb420250806/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --install /home/jetson/tb420250806/build/turtlebot4_navigation
+[1.090s] -- Install configuration: ""
+[1.090s] -- Execute custom install script
+[1.091s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/config/localization.yaml
+[1.092s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/config/mapper_params_localization.yaml
+[1.093s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/config/nav2 mppi.yaml
+[1.093s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/config/nav2 rpp.yaml
+[1.093s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/config/nav2.yaml
+[1.093s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/config/nav2_dwb.yaml
+[1.095s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/config/slam.yaml
+[1.096s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/localization.launch.py
+[1.096s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/nav2.launch.py
+[1.096s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/slam.launch.py
+[1.096s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.pgm
+[1.096s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.yaml
+[1.096s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.pgm
+[1.097s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.yaml
+[1.097s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.pgm
+[1.097s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.yaml
+[1.098s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.sh
+[1.098s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.dsv
+[1.098s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.5-py3.10.egg-info/PKG-INFO
+[1.099s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.5-py3.10.egg-info/SOURCES.txt
+[1.099s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.5-py3.10.egg-info/dependency_links.txt
+[1.099s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation-1.0.5-py3.10.egg-info/top_level.txt
+[1.100s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation/__init__.py
+[1.100s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation/turtlebot4_navigator.py
+[1.100s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigator.py
+[1.101s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/ament_index/resource_index/package_run_dependencies/turtlebot4_navigation
+[1.101s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/ament_index/resource_index/parent_prefix_path/turtlebot4_navigation
+[1.101s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.sh
+[1.101s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.dsv
+[1.101s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.sh
+[1.102s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.dsv
+[1.102s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.bash
+[1.102s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.sh
+[1.102s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.zsh
+[1.102s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.dsv
+[1.103s] -- Symlinking: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/package.dsv
+[1.117s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/ament_index/resource_index/packages/turtlebot4_navigation
+[1.117s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig.cmake
+[1.118s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig-version.cmake
+[1.118s] -- Up-to-date symlink: /home/jetson/tb420250806/install/turtlebot4_navigation/share/turtlebot4_navigation/package.xml
+[1.172s] Listing '/home/jetson/tb420250806/install/turtlebot4_navigation/local/lib/python3.10/dist-packages/turtlebot4_navigation'...
+[1.594s] Invoked command in '/home/jetson/tb420250806/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/tb420250806/install/voice_nav2_assistant:/home/jetson/tb420250806/install/turtlebot4_tests:/home/jetson/tb420250806/install/pose_navigator:/home/jetson/tb420250806/install/turtlebot4_diagnostics:/opt/ros/humble /usr/bin/cmake --install /home/jetson/tb420250806/build/turtlebot4_navigation

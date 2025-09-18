@@ -42,7 +42,7 @@ export MIC_DURATION=3    # 秒
 export MIC_RATE=16000    # Hz
 
 
-
+ros2 launch turtlebot4_bringup lite.launch.py 
 ----------------------------------------------------------------------------
 camera
 ros2 launch turtlebot4_bringup oakd.launch.py

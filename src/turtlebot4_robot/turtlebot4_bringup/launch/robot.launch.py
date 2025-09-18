@@ -62,8 +62,17 @@ def generate_launch_description():
     turtlebot4_node = Node(
         package='turtlebot4_node',
         executable='turtlebot4_node',
-        parameters=[turtlebot4_param_yaml_file,
-                    {'model': LaunchConfiguration('model')}],
+        parameters=[
+        turtlebot4_param_yaml_file,
+        {
+            'model': LaunchConfiguration('model'),
+            # ↓ 這些是關閉燈效的參數，全部放在 parameters 裡
+            'startup_led_animation': False,
+            'enable_led': False,
+            'use_led_status_indicators': False,
+            'enable_lightring': False,
+        }
+    ],
         output='screen')
 
     turtlebot4_base_node = Node(
